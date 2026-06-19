@@ -1,0 +1,23 @@
+import React from 'react'
+import DestinatiiPopulareList from './DestinatiiPopulareList'
+
+import hotel from '../hotels/Hotel/hotels'
+const DestinatiiPopulare = () => {
+  
+  return (
+    <div className=' pt-15  '>
+      <div className='max-w-screen-2xl mx-auto px-15 max-modf:px-10 max-modf1:px-8 pb-4'>
+        <p className='text-[24px]  font-medium' >Hoteluri <span className='text-button'>populare</span></p>
+      </div>
+
+      <ul className='flex space-x-3 scrollbar-thin overflow-x-scroll max-w-screen-2xl mx-auto px-15 max-modf:px-10 max-modf1:px-8 pb-8'>
+        { hotel.slice(0,10).map(component =>
+            <DestinatiiPopulareList key={component.id} hotel={component}/>
+          )
+        }
+      </ul>
+    </div>
+  )
+}
+
+export default DestinatiiPopulare
