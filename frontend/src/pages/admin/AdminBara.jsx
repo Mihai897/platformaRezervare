@@ -20,7 +20,7 @@ const AdminBara = ({visibleBara,setVisibileBara}) => {
           </div>
           <div className='flex items-center space-x-3 text-[14px]'>
             <div className='w-10 h-10 rounded-full'>
-              <img className='rounded-full w-full h-full' src={"/home/descopera/exotic.jpg"} alt="" />
+              <img className='rounded-full w-full h-full' src={`${import.meta.env.BASE_URL}home/descopera/exotic.jpg`} alt="" />
             </div>
             <div>
               <p>Anrei Poopescu</p>

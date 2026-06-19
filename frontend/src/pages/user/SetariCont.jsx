@@ -22,7 +22,7 @@ const SetariCont = () => {
           '>Contul meu</p>
 
           <div className='mt-3 flex space-x-3'>
-            <img className='w-12 h-12 rounded-full' src={"/home/descopera/exotic.jpg"} alt="" />
+            <img className='w-12 h-12 rounded-full' src={`${import.meta.env.BASE_URL}home/descopera/exotic.jpg`} alt="" />
             <div>
               <p>Alex Enache</p>
               <p className='text-gray-400'>alex.enache@email.com</p>

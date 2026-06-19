@@ -51,7 +51,7 @@ const client = [
         locatiRez: "Male, Maldiv",
         recenzieCam: 5,
         rezervareFacuta: "15 mai 2024",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         numeHotel: "Water vila cu piscina privata",
         numeCamera: "Camera 1",
         checkIn: "20 mai 2026",
@@ -69,7 +69,7 @@ const client = [
       },
       {
         codRezervare: "SC-12458",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         recenzieCam: 4,
         rezervareFacuta: "15 mai 2024",
         numeHotel: "Water vila cu piscina privata",
@@ -89,7 +89,7 @@ const client = [
       },
       {
         codRezervare: "SC-12438",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         recenzieCam: 4.6,
         rezervareFacuta: "15 mai 2024",
         numeHotel: "Water vila cu piscina privata",
@@ -109,7 +109,7 @@ const client = [
       },
       {
         codRezervare: "SC-124138",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         recenzieCam: 3.9,
         rezervareFacuta: "15 mai 2024",
         numeHotel: "Water vila cu piscina privata",
@@ -129,7 +129,7 @@ const client = [
       },
       {
         codRezervare: "SC-124148",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         recenzieCam: 4.4,
         rezervareFacuta: "15 mai 2024",
         numeHotel: "Water vila cu piscina privata",
@@ -149,7 +149,7 @@ const client = [
       },
       {
         codRezervare: "SC-1241618",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         recenzieCam: 5,
         rezervareFacuta: "15 mai 2024",
         numeHotel: "Water vila cu piscina privata",
@@ -171,7 +171,7 @@ const client = [
         codRezervare: "SC-124008",
         recenzieCam: 4.7,
         rezervareFacuta: "15 mai 2024",
-        cameraImg: "/home/descopera/exotic.jpg",
+        cameraImg: `${import.meta.env.BASE_URL}home/descopera/exotic.jpg`,
         numeHotel: "Water vila cu piscina privata",
         numeCamera: "Camera 1",
         checkIn: "20 mai 2026",
