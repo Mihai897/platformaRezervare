@@ -213,7 +213,7 @@ const AdminHoteluri = () => {
                         </button>
                         {
                           visibleHotelActiuni === par.id && (
-                            <div className={`absolute border mt-1 bg-background border-button right-10 rounded-lg  z-300 ${visibleHotelActiuni===hotels[hotels.length-1].id ? "-bottom-1":"top-1/2 -translate-y-1/2"} w-43`}>
+                            <div className={`absolute border mt-1 bg-background border-button right-10 rounded-lg  z-300 ${visibleHotelActiuni===hotels[hotels.length-1].id ? "-bottom-1":"top-1/2 -translate-y-1/2"} w-43 max-modf8:w-50`}>
                               <div className='relative'>
                                 <ul className={`  py-1  px-1 `}>
                               

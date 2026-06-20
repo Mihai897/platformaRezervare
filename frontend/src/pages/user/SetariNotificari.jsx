@@ -82,8 +82,8 @@ const SetariNotificari = () => {
                       </div>
                     </div>
 
-                    <button onClick={()=>toggleTipNotificare(iNotificare)} className={`w-10 transition-all duration-300 ease-in-out h-5 ${notificare.visible===false?"bg-gray-400":"bg-green-500"}  cursor-pointer rounded-full relative `}>
-                      <div className={`absolute w-[50%] h-full transition-all duration-300 ease-in-out bg-white ${notificare.visible===false?"translate-x-0":"translate-x-full"} rounded-full top-1/2 -translate-y-1/2`}></div>
+                    <button onClick={()=>toggleTipNotificare(iNotificare)} className={`w-10 transition-all duration-300 ease-in-out h-5 ${notificare.visible===false?"bg-gray-400":"bg-green-500"} shrink-0  cursor-pointer rounded-full relative `}>
+                      <div className={`absolute w-[50%] h-full transition-all shrink-0 duration-300 ease-in-out bg-white ${notificare.visible===false?"translate-x-0":"translate-x-full"} rounded-full top-1/2 -translate-y-1/2`}></div>
                     </button>
                   </li>
                 )
@@ -115,8 +115,8 @@ const SetariNotificari = () => {
                       </div>
                     </div>
 
-                    <button onClick={()=>togglePrimire(iNotificarePrimire)} className={`w-10 transition-all duration-300 ease-in-out h-5 ${notificarePrimire.visibil===false?"bg-gray-400":"bg-green-500"}  cursor-pointer rounded-full relative `}>
-                      <div className={`absolute w-[50%] h-full transition-all duration-300 ease-in-out bg-white ${notificarePrimire.visibil===false?"translate-x-0":"translate-x-full"} rounded-full top-1/2 -translate-y-1/2`}></div>
+                    <button onClick={()=>togglePrimire(iNotificarePrimire)} className={`w-10 transition-all duration-300 ease-in-out h-5 ${notificarePrimire.visibil===false?"bg-gray-400":"bg-green-500"} shrink-0  cursor-pointer rounded-full relative `}>
+                      <div className={`absolute w-[50%] h-full transition-all duration-300 ease-in-out bg-white ${notificarePrimire.visibil===false?"translate-x-0":"translate-x-full"} shrink-0 rounded-full top-1/2 -translate-y-1/2`}></div>
                     </button>
                   </li>
                 )

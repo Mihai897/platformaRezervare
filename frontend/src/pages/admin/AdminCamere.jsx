@@ -361,7 +361,7 @@ const AdminCamere = () => {
 
                   <div className='fixed bg-gray-400/15  inset-0 z-600 flex justify-center items-center'>
 
-                    <div className='px-3 flex justify-center w-full'>
+                    <div className='px-3 py-3 flex justify-center w-full'>
 
                       {
                         modalCamAct.actiune === 0 && (

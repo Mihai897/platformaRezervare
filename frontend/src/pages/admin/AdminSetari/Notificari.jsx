@@ -93,8 +93,8 @@ const Notificari = () => {
                   </div>
                   
                   <div>
-                    <button onClick={()=>par.nume === "Email"? setVisibEm(!visibEm): setVisibSMS(!visibSMS)} className={`w-12 cursor-pointer   h-6 rounded-full border ${activare?"bg-green-500": "bg-gray-400/30"} transition-all duration-300 ease-in-out border-button/30 flex `}>
-                      <div className={`w-6 h-full rounded-full  bg-white transition-all duration-300 ease-in-out ${activare?"translate-x-6":"translate-x-0"}`}></div>
+                    <button onClick={()=>par.nume === "Email"? setVisibEm(!visibEm): setVisibSMS(!visibSMS)} className={`w-12 cursor-pointer   h-6 rounded-full border ${activare?"bg-green-500": "bg-gray-400/30"} shrink-0 transition-all duration-300 ease-in-out border-button/30 flex `}>
+                      <div className={`w-6 h-full rounded-full  bg-white transition-all shrink-0 duration-300 ease-in-out ${activare?"translate-x-full":"translate-x-0"}`}></div>
                       
                     </button>
                   </div>

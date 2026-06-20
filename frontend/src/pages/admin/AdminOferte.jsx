@@ -258,7 +258,7 @@ const AdminOferte = () => {
 
                               {
                                 visibleEditAct ===room.oferta.cod && (
-                                  <div className='fixed inset-0 px-3 bg-gray-400/15 z-300 flex justify-center items-center '>
+                                  <div className='fixed inset-0 px-3 py-3 bg-gray-400/15 z-300 flex justify-center items-center '>
 
                                     <div className='border border-button rounded-lg px-3 py-3 max-w-135 max-h-[95vh] overflow-y-auto bg-background scrollbar-thin flex items-start flex-col text-[14px]'>
                                       <div className='flex justify-between space-x-3 w-full'>
@@ -378,7 +378,7 @@ const AdminOferte = () => {
                               {visibleAct === room.oferta.cod && (
                                 <div className={`absolute -right-1  ${(room.oferta.cod === ultimulCod || room.oferta.cod === penultimulCod)?"bottom-9":"top-9"}`}>
                                   <div  className='border border-button px-1.5 py-1 rounded-lg bg-background z-100 text-white relative'>
-                                    <ul className='space-y-1 w-39'>
+                                    <ul className='space-y-1 w-39 max-modf8:w-46'>
                                       {
                                         listaAct.map((par,iList)=>{
                                           const IconLiAct = iconListAct[par.icon]

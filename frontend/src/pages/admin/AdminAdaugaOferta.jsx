@@ -116,7 +116,7 @@ const AdminAdaugaOferta = () => {
             <div className={`grid grid-cols-2 gap-3 mt-3 ${visibleBara?"max-modf2:grid-cols-1":"max-modf8:grid-cols-1"}`}>
               <div className='w-full flex items-center space-x-3 '>
                 <div>
-                  <button onClick={()=>setVisibleButonActivare(!visibleButonActivare)} className={`w-9 h-4.5 cursor-pointer rounded-full ${visibleButonActivare===false?"bg-gray-400":"bg-button"} transition-all duration-300 ease-in-out relative`}><div className={`absolute transition-all duration-300 ease-in-out ${visibleButonActivare===false?"translate-x-0": "translate-x-full"} bg-white w-[50%] h-full rounded-full top-1/2 -translate-y-1/2`}></div></button>
+                  <button onClick={()=>setVisibleButonActivare(!visibleButonActivare)} className={`w-9 h-4.5 cursor-pointer rounded-full ${visibleButonActivare===false?"bg-gray-400":"bg-button"} shrink-0 transition-all duration-300 ease-in-out relative`}><div className={`absolute transition-all duration-300 ease-in-out ${visibleButonActivare===false?"translate-x-0": "translate-x-full"} shrink-0 bg-white w-[50%] h-full rounded-full top-1/2 -translate-y-1/2`}></div></button>
                 </div>
                 <div>
                   <p>Activa</p>
@@ -125,7 +125,7 @@ const AdminAdaugaOferta = () => {
               </div>
               <div className='w-full flex items-center space-x-3 '>
                 <div>
-                  <button onClick={()=>setVisibleButonSite(!visibleButonSite)} className={`w-9 h-4.5 cursor-pointer rounded-full ${visibleButonSite===false?"bg-gray-400":"bg-button"} transition-all duration-300 ease-in-out relative`}><div className={`absolute transition-all duration-300 ease-in-out ${visibleButonSite===false?"translate-x-0": "translate-x-full"} bg-white w-[50%] h-full rounded-full top-1/2 -translate-y-1/2`}></div></button>
+                  <button onClick={()=>setVisibleButonSite(!visibleButonSite)} className={`w-9 h-4.5 cursor-pointer rounded-full ${visibleButonSite===false?"bg-gray-400":"bg-button"} shrink-0 transition-all duration-300 ease-in-out relative`}><div className={`absolute transition-all duration-300 ease-in-out shrink-0 ${visibleButonSite===false?"translate-x-0": "translate-x-full"} bg-white w-[50%] h-full rounded-full top-1/2 -translate-y-1/2`}></div></button>
                 </div>
                 <div>
                   <p>Afisare</p>
