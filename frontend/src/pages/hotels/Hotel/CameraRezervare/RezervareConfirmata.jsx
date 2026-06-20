@@ -24,7 +24,7 @@ const RezervareConfirmata = () => {
     <div className='border px-3 py-4 border-button/30 rounded-lg'>
       <div className='flex max-modf1:flex-col modf1:items-center modf1:space-x-3 border-b border-b-button/30 pb-4'>
         <div className='w-50  max-modf1:w-60 max-modf1:mx-auto rounded-lg'>
-          <img className='rounded-lg w-full object-center' src={"/home/verify.PNG"} alt="" />
+          <img className='rounded-lg w-full object-center' src={`${import.meta.env.BASE_URL}home/verify.PNG`} alt="" />
         </div>
 
         <div className='modf1:flex-3 max-modf1:mt-3 flex modf1:flex-col max-modf1:flex-wrap max-modf1:items-center max-modf1:space-x-3 items-start'>
