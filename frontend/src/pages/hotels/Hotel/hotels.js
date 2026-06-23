@@ -1739,7 +1739,7 @@ const hotels = [
         `${import.meta.env.BASE_URL}home/imaginiHotel/hotelRomadaIasi/camera2/6.jpg`,
         `${import.meta.env.BASE_URL}home/imaginiHotel/hotelRomadaIasi/camera2/7.jpg`,
         `${import.meta.env.BASE_URL}home/imaginiHotel/hotelRomadaIasi/camera2/8.jpg`,
-        `${import.meta.env.BASE_URL}home/imaginiGotel/gotelRomadaIasi/camera2/9.jpg`],
+        `${import.meta.env.BASE_URL}home/imaginiGotel/hotelRomadaIasi/camera2/9.jpg`],
       nrCamera: "camera: 1",
       price: 410,
 

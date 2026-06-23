@@ -64,8 +64,8 @@ const OferteleList = ({oferte,room}) => {
         </div>
 
         <div className='modf1:mt-10'>
-          <p className='text-gray-400 line-through'>{room.oferta?.pretReducere}</p>
-          <p className='text-gray-400'><span className='text-white font-medium max-modf:text-[16px] text-[20px]'>{room.price} RON</span>/noapte</p>
+          <p className='text-gray-400 line-through'>{room.price} RON</p>
+          <p className='text-gray-400'><span className='text-white font-medium max-modf:text-[16px] text-[20px]'>{room.oferta?.pretReducere}</span>/noapte</p>
         </div>
 
         <div>

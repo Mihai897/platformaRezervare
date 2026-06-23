@@ -10,6 +10,12 @@ const HotelRecenzii = () => {
   const [visible, setVisible] = useState(false);
   const [visibleButton, setVisibleButton] = useState(false);
   const [visibleButton1, setVisibleButton1] = useState(false);
+  const travelerTypes = [
+  "Singur",
+  "Cuplu",
+  "Familie",
+  "Familie cu copii mici"
+];
   return (
     <div className='max-w-screen-2xl mx-auto px-15 max-modf:px-10 max-modf1:px-8'>
       <div className='bg-button1 border border-button/40 rounded-b-xl px-4 py-4'>
@@ -147,7 +153,7 @@ const HotelRecenzii = () => {
                   </button>
                   <div className='absolute w-full z-10'>
                       <ul className={`overflow-hidden transition-all duration-600 ease-in-out ${visibleButton ? "max-h-60 opacity-100": "max-h-0 opacity-0"}`}>
-                        {hotel.tipCalator.map((par,i)=>(
+                        {travelerTypes.map((par,i)=>(
                           <li className='bg-b'>
                             <button className='bg-button1 text-gray-400 border border-button/30 px-3 py-1 cursor-pointer w-full text-start hover:border-button/70 active:border-button transition-all duration-600 ease-in-out'>{par}</button>
                           </li>

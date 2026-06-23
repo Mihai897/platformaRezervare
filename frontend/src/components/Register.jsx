@@ -35,8 +35,12 @@ const Register = () => {
 
 
             <div className=''>
-              <p className='text-gray-400'>Nume complet <span className='text-red-700'>*</span></p>
-              <input className='border w-full border-button/30 px-3 py-1 rounded-lg outline-0 mt-1' type="text" placeholder='Ex: Andrei Popescu'/>
+              <p className='text-gray-400'>Nume  <span className='text-red-700'>*</span></p>
+              <input className='border w-full border-button/30 px-3 py-1 rounded-lg outline-0 mt-1' type="text" placeholder='Ex:  Popescu'/>
+            </div>
+            <div className=''>
+              <p className='text-gray-400'>Prenume <span className='text-red-700'>*</span></p>
+              <input className='border w-full border-button/30 px-3 py-1 rounded-lg outline-0 mt-1' type="text" placeholder='Ex: Andrei '/>
             </div>
 
             <div className=''>
